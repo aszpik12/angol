@@ -13,7 +13,9 @@ export default class MondatokModel {
     this.#hossz = this.#mondatokLista.length - 2;
     this.aktMondatOsszeallit(2);
   }
-  kovElem(index) {}
+  kovElem(index) {
+    
+ }
   aktMondatOsszeallit(index) {
     let obj = this.#mondatokLista[index];
     const kv = [...obj.valasztas];
